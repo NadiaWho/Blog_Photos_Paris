@@ -15,10 +15,11 @@ h2 {
 /* ***** navbar ***** */
 nav {
   font-family: 'Tangerine', sans-serif;
-  font-size : 50px;
+  font-size : 45px;
   padding-top: 1%;
   justify-content:space-between;
   height: 90px;
+  background: #373737
 }
 
 .menu {
@@ -28,7 +29,7 @@ nav {
 
 .menu a {
   text-decoration: none;
-  color :#636363;
+  color: white;
   transform: translateY(-20px);
 }
 
@@ -40,7 +41,7 @@ nav {
 .item-nav::after {
   display: block;
   content: '';
-  background-color : #636363;
+  background-color : white;
   margin : 5px auto;
   width : 0px;
   height: 1px;
@@ -206,7 +207,7 @@ footer {
   margin-top : 5%;
   padding : 3px;
   bottom: 0;
-  background-color:black;
+  background-color: #373737;
 }
 
 
@@ -278,7 +279,7 @@ footer a:hover {
   font-family: 'Tangerine', 'cursive';
   font-size: 35px;
   text-align: center;
-  overflow-x: hidden;
+  animation : img-intro .5s ease forwards .5s;  
   width : 100%;
 }
 
